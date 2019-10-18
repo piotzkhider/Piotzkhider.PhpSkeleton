@@ -11,7 +11,7 @@ final class __Package__Test extends TestCase
     /**
      * @var __Package__
      */
-    protected $__PackageVarName__;
+    private $__PackageVarName__;
 
     protected function setUp(): void
     {
