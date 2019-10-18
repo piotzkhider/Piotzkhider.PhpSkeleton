@@ -41,4 +41,3 @@ Once installed, the project will automatically be configured so you can run thos
 ### cs-fix
 
 `composer cs-fix` run [`php-cs-fixer`](https://github.com/FriendsOfPHP/PHP-CS-Fixer) and [`phpcbf`](https://github.com/squizlabs/PHP_CodeSniffer/wiki/Fixing-Errors-Automatically) to fix up the PHP code to follow the coding standards. (Check only command `composer cs` is also available.)
-# Piotzkhider.PhpSkeleton
