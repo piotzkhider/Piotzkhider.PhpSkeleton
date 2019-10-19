@@ -6,21 +6,21 @@ namespace __Vendor__\__Package__;
 
 use PHPUnit\Framework\TestCase;
 
-final class __Package__Test extends TestCase
+class __Package__Test extends TestCase
 {
     /**
      * @var __Package__
      */
-    private $__PackageVarName__;
+    private $SUT;
 
     protected function setUp(): void
     {
-        $this->__PackageVarName__ = new __Package__();
+        $this->SUT = new __Package__();
     }
 
     public function testIsInstanceOf__Package__(): void
     {
-        $actual = $this->__PackageVarName__;
+        $actual = $this->SUT;
         $this->assertInstanceOf(__Package__::class, $actual);
     }
 }
