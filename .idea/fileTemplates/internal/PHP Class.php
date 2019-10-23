@@ -7,6 +7,6 @@ namespace ${NAMESPACE};
 
 #end
 
-final class ${NAME} {
+class ${NAME} {
 
 }
