@@ -71,7 +71,7 @@
       <option name="migratedIntoUserSpace" value="true" />
     </inspection_tool>
     <inspection_tool class="InconsistentLineSeparators" enabled="true" level="WARNING" enabled_by_default="true" />
-    <inspection_tool class="MessDetectorValidationInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+    <inspection_tool class="MessDetectorValidationInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false">
       <option name="customRulesets">
         <list>
           <RulesetDescriptor>
@@ -85,11 +85,11 @@
         </list>
       </option>
     </inspection_tool>
-    <inspection_tool class="PhpCSFixerValidationInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+    <inspection_tool class="PhpCSFixerValidationInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false">
       <option name="CODING_STANDARD" value="Custom" />
       <option name="CUSTOM_RULESET_PATH" value="$PROJECT_DIR$/.php_cs.dist" />
     </inspection_tool>
-    <inspection_tool class="PhpCSValidationInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+    <inspection_tool class="PhpCSValidationInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false">
       <option name="CODING_STANDARD" value="Custom" />
       <option name="CUSTOM_RULESET_PATH" value="$PROJECT_DIR$/phpcs.xml" />
       <option name="EXTENSIONS" value="php,js,css,inc" />
